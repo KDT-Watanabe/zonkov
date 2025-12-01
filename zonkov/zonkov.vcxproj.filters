@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{662674a3-e2de-412b-a942-6783d5e17fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game">
+      <UniqueIdentifier>{8351353d-2381-46b6-8464-9daac08cea99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Field">
+      <UniqueIdentifier>{566c400e-a1fc-43ed-a005-3c596ce149e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Shop">
+      <UniqueIdentifier>{bb2f28b6-6a86-48cb-bbcb-1fc289321f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Task">
+      <UniqueIdentifier>{5ddda5f0-85cb-4f56-bd2a-f84d017ffabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{f6b90bde-55d9-49b6-a771-ead2944bd1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Math">
+      <UniqueIdentifier>{87c2933d-2f9b-4f1a-a11f-d22c13fc6fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Field\Map">
+      <UniqueIdentifier>{8925b647-ff75-4fcb-a03b-44071b5cfc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Field\Map\Chest">
+      <UniqueIdentifier>{f04116de-1bbf-4ca7-a491-a7667c86d8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Field\Manager">
+      <UniqueIdentifier>{cf21cb53-66a3-485d-92fc-e29747fd10f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Home">
+      <UniqueIdentifier>{d5ee3ddf-0349-461c-b6b1-401551c270e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Home\Shop">
+      <UniqueIdentifier>{8ee63031-2627-40d2-9a34-3b9b210f8abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Home\Shop\Trade">
+      <UniqueIdentifier>{934de368-d264-4687-8abc-c3929f10dedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Character">
+      <UniqueIdentifier>{a5908d93-dbca-4532-8c45-baa246d7cfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Character\Enemy">
+      <UniqueIdentifier>{c4c25e3e-f231-49d2-9613-ba8bce258acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Character\Player">
+      <UniqueIdentifier>{af77d9da-1639-4467-88c3-dedde2c40b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Matrix">
+      <UniqueIdentifier>{6bfcf157-ad98-463e-bf09-1d6c141288b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Data">
+      <UniqueIdentifier>{e9c6ab5a-85f1-41cc-bccb-063706ef144e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Data\ItemData">
+      <UniqueIdentifier>{73fa825f-c322-48a2-a293-10f8f3afde29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Player.h">
+      <Filter>ヘッダー ファイル\Game\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>ヘッダー ファイル\Game\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FieldManager.h">
+      <Filter>ヘッダー ファイル\Game\Field\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trade.h">
+      <Filter>ヘッダー ファイル\Game\Home\Shop\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StatBase.h">
+      <Filter>ヘッダー ファイル\Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chest.h">
+      <Filter>ヘッダー ファイル\Game\Field\Map\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>ヘッダー ファイル\Game\Field\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix.h">
+      <Filter>ヘッダー ファイル\System\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ItemData.h">
+      <Filter>ヘッダー ファイル\Data\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WeaponData.h">
+      <Filter>ヘッダー ファイル\Data\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArmorData.h">
+      <Filter>ヘッダー ファイル\Data\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MedicalSupliesData.h">
+      <Filter>ヘッダー ファイル\Data\ItemData</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

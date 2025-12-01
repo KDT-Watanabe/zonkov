@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\com\\source\\repos\\zonkov\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Chest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\Chest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\ItemData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\ItemData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\ArmorData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\ArmorData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\StatBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\StatBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\EnemyData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\EnemyData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\MedicalSupliesData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\MedicalSupliesData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\WeaponData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\WeaponData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\FieldManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\FieldManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Trade.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\Trade.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D8EA27-A4E8-4B3B-95B9-87C0C7DDBCB4}|zonkov\\zonkov.vcxproj|solutionrelative:zonkov\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicalSupliesData.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\MedicalSupliesData.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\MedicalSupliesData.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\MedicalSupliesData.h",
+              "RelativeToolTip": "zonkov\\src\\MedicalSupliesData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:26:22.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArmorData.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\ArmorData.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\ArmorData.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\ArmorData.h",
+              "RelativeToolTip": "zonkov\\src\\ArmorData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:25:29.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeaponData.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\WeaponData.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\WeaponData.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\WeaponData.h",
+              "RelativeToolTip": "zonkov\\src\\WeaponData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:25:07.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyData.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\EnemyData.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\EnemyData.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\EnemyData.h",
+              "RelativeToolTip": "zonkov\\src\\EnemyData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:24:03.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemData.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\ItemData.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\ItemData.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\ItemData.h",
+              "RelativeToolTip": "zonkov\\src\\ItemData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:23:45.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Matrix.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Matrix.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\Matrix.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Matrix.h",
+              "RelativeToolTip": "zonkov\\src\\Matrix.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:22:45.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Map.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Map.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\Map.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Map.h",
+              "RelativeToolTip": "zonkov\\src\\Map.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:19:18.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chest.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Chest.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\Chest.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Chest.h",
+              "RelativeToolTip": "zonkov\\src\\Chest.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:18:58.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatBase.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\StatBase.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\StatBase.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\StatBase.h",
+              "RelativeToolTip": "zonkov\\src\\StatBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:05:28.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Trade.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Trade.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\Trade.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Trade.h",
+              "RelativeToolTip": "zonkov\\src\\Trade.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:03:59.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FieldManager.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\FieldManager.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\FieldManager.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\FieldManager.h",
+              "RelativeToolTip": "zonkov\\src\\FieldManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:00:42.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Enemy.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\Enemy.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Enemy.h",
+              "RelativeToolTip": "zonkov\\src\\Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:00:32.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Player.h",
+              "RelativeDocumentMoniker": "zonkov\\src\\Player.h",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\Player.h",
+              "RelativeToolTip": "zonkov\\src\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T01:00:19.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\main.cpp",
+              "RelativeDocumentMoniker": "zonkov\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\com\\source\\repos\\zonkov\\zonkov\\src\\main.cpp",
+              "RelativeToolTip": "zonkov\\src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-01T00:35:34.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
