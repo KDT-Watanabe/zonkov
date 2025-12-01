@@ -89,7 +89,7 @@
     <ClInclude Include="src\Trade.h">
       <Filter>ヘッダー ファイル\Game\Home\Shop\Trade</Filter>
     </ClInclude>
-    <ClInclude Include="src\StatBase.h">
+    <ClInclude Include="src\StateBase.h">
       <Filter>ヘッダー ファイル\Game\Character</Filter>
     </ClInclude>
     <ClInclude Include="src\Chest.h">
