@@ -1,5 +1,32 @@
-".vs/" 
-"x64/" 
-"dxlib/" 
-"*.user" 
-"Log.txt" 
+# Build output
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.exe
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# DxLib (external library)
+dxlib/
+
+# Runtime files
+*.log
+Log.txt
+
+# Claude
+.claude/
+
+# Duplicate folders
+zonkov/zonkov/
+zonkov/x64/
