@@ -1,0 +1,112 @@
+================================================================================
+                         ZONKOV ASSET SPECIFICATION
+================================================================================
+
+All images should be PNG format with transparency support.
+Recommended: 32-bit PNG with alpha channel.
+
+================================================================================
+1. CHARACTERS (Assets/Characters/)
+================================================================================
+
+player.png          - Player character (64x64 recommended)
+player_attack.png   - Player attacking animation (64x64, optional)
+
+enemy_melee.png     - Melee enemy (64x64 recommended)
+enemy_melee_aggro.png - Melee enemy aggressive state (64x64, optional)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+2. MAP TILES (Assets/Map/)
+================================================================================
+
+floor.png           - Floor tile (32x32, will be tiled)
+wall.png            - Wall tile (32x32, will be tiled)
+wall_top.png        - Top wall edge (32x32, optional)
+wall_corner.png     - Wall corner (32x32, optional)
+
+exit_area.png       - Exit zone indicator (64x64 or larger)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+3. ITEMS (Assets/Items/)
+================================================================================
+
+Item images are drawn in inventory at CELL_SIZE (40x40).
+For map drops, they are scaled to about 16x16.
+
+-- Consumables --
+item_small_potion.png   - ID:1  Small Potion (40x40)
+item_large_potion.png   - ID:2  Large Potion (40x80, 1x2 grid)
+item_bandage.png        - ID:3  Bandage (40x40)
+
+-- Weapons --
+item_short_sword.png    - ID:10 Short Sword (40x120, 1x3 grid)
+item_long_sword.png     - ID:11 Long Sword (40x160, 1x4 grid)
+item_dagger.png         - ID:12 Dagger (40x80, 1x2 grid)
+
+-- Armor --
+item_leather_armor.png  - ID:20 Leather Armor (80x120, 2x3 grid)
+item_chainmail.png      - ID:21 Chainmail (80x120, 2x3 grid)
+item_wooden_shield.png  - ID:22 Wooden Shield (80x80, 2x2 grid)
+
+-- Materials --
+item_iron_ore.png       - ID:30 Iron Ore (40x40)
+item_herb.png           - ID:31 Herb (40x40)
+
+-- Valuables --
+item_gold_ring.png      - ID:40 Gold Ring (40x40)
+item_ancient_coin.png   - ID:41 Ancient Coin (40x40)
+item_jeweled_crown.png  - ID:42 Jeweled Crown (80x80, 2x2 grid)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+4. CONTAINERS (Assets/Containers/)
+================================================================================
+
+container_crate.png         - Wooden crate (32x32)
+container_crate_open.png    - Opened crate (32x32, optional)
+container_barrel.png        - Barrel (32x32)
+container_barrel_open.png   - Opened barrel (32x32, optional)
+container_weapon_crate.png  - Weapon crate (32x32)
+container_treasure.png      - Treasure chest (32x32)
+container_treasure_open.png - Opened treasure (32x32, optional)
+container_corpse.png        - Enemy corpse (32x32)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+5. UI ELEMENTS (Assets/UI/)
+================================================================================
+
+ui_inventory_bg.png     - Inventory background (360x280 for 8x6 + padding)
+ui_container_bg.png     - Container background (200x160 for 4x3 + padding)
+ui_slot.png             - Empty inventory slot (40x40)
+ui_slot_hover.png       - Slot hover state (40x40, optional)
+
+ui_hp_bar_bg.png        - HP bar background (150x15)
+ui_hp_bar_fill.png      - HP bar fill (stretchable)
+
+ui_weight_bar_bg.png    - Weight bar background (150x10)
+ui_weight_bar_fill.png  - Weight bar fill (stretchable)
+
+ui_equip_slot.png       - Equipment slot background (60x60)
+ui_button.png           - Generic button (100x30)
+ui_tab_active.png       - Active tab (100x30)
+ui_tab_inactive.png     - Inactive tab (100x30)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+NOTES
+================================================================================
+
+- If an image file is missing, the game will fall back to debug drawing.
+- Images are loaded at game startup via ResourceManager.
+- Transparency (alpha channel) is fully supported.
+- For animations, you can add _frame1, _frame2 suffixes (future feature).
+
+================================================================================

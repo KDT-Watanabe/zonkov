@@ -18,6 +18,63 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Data\ItemDatabase.cpp" />
+    <ClCompile Include="Source\Scene\TestScene.cpp" />
+    <ClCompile Include="Source\Scene\GameScene.cpp" />
+    <ClCompile Include="Source\Scene\BaseScene.cpp" />
+    <ClCompile Include="Source\Entity\Base\Actor.cpp" />
+    <ClCompile Include="Source\Entity\Player\Player.cpp" />
+    <ClCompile Include="Source\Entity\Enemy\Enemy.cpp" />
+    <ClCompile Include="Source\Entity\Item\LootContainer.cpp" />
+    <ClCompile Include="Source\Entity\Projectile\Projectile.cpp" />
+    <ClCompile Include="Source\System\Input\InputManager.cpp" />
+    <ClCompile Include="Source\System\Inventory\Inventory.cpp" />
+    <ClCompile Include="Source\System\Map\MapSystem.cpp" />
+    <ClCompile Include="Source\System\Resource\ResourceManager.cpp" />
+    <ClCompile Include="Source\System\Scene\SceneManager.cpp" />
+    <ClCompile Include="Source\System\GameData\GameData.cpp" />
+    <ClCompile Include="Source\System\Shop\ShopSystem.cpp" />
+    <ClCompile Include="Source\System\Combat\CombatSystem.cpp" />
+    <ClCompile Include="Source\System\UI\FeedbackSystem.cpp" />
+    <ClCompile Include="Source\System\Quest\QuestSystem.cpp" />
+    <ClCompile Include="Source\Utility\Vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Data\ItemData.h" />
+    <ClInclude Include="Source\Data\ItemDatabase.h" />
+    <ClInclude Include="Source\Data\CombatTypes.h" />
+    <ClInclude Include="Source\Data\WeaponData.h" />
+    <ClInclude Include="Source\Data\ArmorData.h" />
+    <ClInclude Include="Source\Data\GearData.h" />
+    <ClInclude Include="Source\Data\LootTable.h" />
+    <ClInclude Include="Source\Entity\Item\ItemDrop.h" />
+    <ClInclude Include="Source\Entity\Base\Actor.h" />
+    <ClInclude Include="Source\Entity\Player\Player.h" />
+    <ClInclude Include="Source\Entity\Enemy\Enemy.h" />
+    <ClInclude Include="Source\Entity\Item\LootContainer.h" />
+    <ClInclude Include="Source\Entity\Projectile\Projectile.h" />
+    <ClInclude Include="Source\Scene\IScene.h" />
+    <ClInclude Include="Source\Scene\TestScene.h" />
+    <ClInclude Include="Source\Scene\GameScene.h" />
+    <ClInclude Include="Source\Scene\BaseScene.h" />
+    <ClInclude Include="Source\System\Input\InputManager.h" />
+    <ClInclude Include="Source\System\Inventory\Inventory.h" />
+    <ClInclude Include="Source\System\Map\MapSystem.h" />
+    <ClInclude Include="Source\System\Resource\ResourceManager.h" />
+    <ClInclude Include="Source\System\Scene\SceneManager.h" />
+    <ClInclude Include="Source\System\GameData\GameData.h" />
+    <ClInclude Include="Source\System\Shop\ShopSystem.h" />
+    <ClInclude Include="Source\System\Combat\CombatSystem.h" />
+    <ClInclude Include="Source\System\UI\FeedbackSystem.h" />
+    <ClInclude Include="Source\System\Quest\QuestSystem.h" />
+    <ClInclude Include="Source\Utility\RectF.h" />
+    <ClInclude Include="Source\Utility\Vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Log.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -102,13 +159,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>"C:\Users\nabec\source\repos\zonkov\dxlib";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\nabec\source\repos\zonkov\dxlib;.\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>"C:\Users\nabec\source\repos\zonkov\dxlib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DxLib_x64.lib;DxUseCLib_x64.lib;DxDrawFunc_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -119,18 +178,17 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>"C:\Users\nabec\source\repos\zonkov\dxlib";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\nabec\source\repos\zonkov\dxlib;.\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>"C:\Users\nabec\source\repos\zonkov\dxlib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DxLib_x64.lib;DxUseCLib_x64.lib;DxDrawFunc_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="test.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
