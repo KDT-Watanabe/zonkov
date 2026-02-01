@@ -17,8 +17,7 @@ Release/
 *.VC.db
 *.VC.opendb
 
-# DxLib (external library)
-dxlib/
+# DxLib - included in repository
 
 # Runtime files
 *.log
